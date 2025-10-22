@@ -1,5 +1,7 @@
 Proceso Tabla
     Definir numeroUsuario,e Como real;
+	
+	Escribir "Escriba el numero del que quiera sacar su tabla";
     
     Leer numeroUsuario;
     

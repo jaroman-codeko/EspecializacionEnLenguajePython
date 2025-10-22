@@ -19,6 +19,8 @@ Proceso Asignatura
 				SiNo
 					si aux=="viernes" Entonces
 						Escribir "Toca Informática";
+					SiNo
+						Escribir  "Ese dia o no Existe o no hay clase";
 					
 			FinSi
 	FinSi

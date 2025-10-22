@@ -10,7 +10,7 @@ Proceso Horoscopo
     Si mes = 1 Y dia >= 20 O mes = 2 Y dia <= 18 Entonces
         signo <- "Acuario";
     Sino
-        Si mes = 2 Y dia >= 19 O bmes = 3 Y dia <= 20 Entonces
+        Si mes = 2 Y dia >= 19 O mes = 3 Y dia <= 20 Entonces
             signo <- "Piscis";
         Sino
             Si mes = 3 Y dia >= 21 O mes = 4 Y dia <= 19   Entonces

@@ -6,9 +6,10 @@ Proceso ecuacion
 	Escribir "Hola introduzca otro numero";
 	Leer	num2;
 	
-	aux<--num2/num;
 	
-	Si num2<>0 Entonces
+	Si num2<>0 y num<>0 Entonces
+		Escribir  num;
+		aux<--num2/num;
 		Escribir "El resultado es ",aux;
 	Sino 
 		Escribir "No tiene una solución real";

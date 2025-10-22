@@ -12,14 +12,14 @@ Proceso NotaProgramcion
     Si media >= 5 Entonces
         Escribir "Aprobado. Tu media es: ", media;
     SiNo
-        Escribir "No has aprobado. ¿Cuál ha sido el resultado de la recuperación? (apto/no apto)";
+        Escribir "No has aprobado. ¿Cuál ha sido el resultado de la recuperación? (apto/no apto)*";
         Leer resultado;
         
         Si resultado == "apto" Entonces
 			
-            Escribir "Has aprobado en la recuperación. Tu nota final es: 5";
+            Escribir "Has aprobado en la recuperación";
         SiNo
-            Escribir "No apto. Tu nota final es: ", media;
+            Escribir "No apto.";
         FinSi;
     FinSi;
 FinProceso
